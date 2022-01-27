@@ -94,6 +94,14 @@ abstract class MediaStreamTrack {
     throw UnimplementedError();
   }
 
+  Future<Stream> startEyesOpenStream() async {
+    throw UnimplementedError();
+  }
+
+  Future<void> stopEyesOpenStream() async {
+    throw UnimplementedError();
+  }
+
   Future<bool> hasTorch() {
     throw UnimplementedError();
   }
